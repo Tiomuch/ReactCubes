@@ -1,0 +1,126 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.column {
+  width: 50px;
+  height: 50px;
+  background-color: #4cabe3;
+  border: 0;
+  padding: 0;
+  margin: 0;
+}
+
+.buttonAddColumn {
+  width: 50px;
+  height: 50px;
+  text-decoration: none;
+  user-select: none;
+  display: inline-block;
+  outline: none;
+  text-align: center;
+  background-color: #f49f28;
+  color: white;
+  transition: background-color 1s linear;
+  cursor: pointer;
+  border: 0;
+  position: absolute;
+  right: -52px;
+  top: 3px;
+}
+
+.buttonAddColumn:hover {
+  background-color: #f5c154;
+}
+
+.buttonAddLine {
+  width: 50px;
+  height: 50px;
+  text-decoration: none;
+  user-select: none;
+  display: inline-block;
+  outline: none;
+  text-align: center;
+  background-color: #f49f28;
+  color: white;
+  transition: background-color 1s linear;
+  cursor: pointer;
+  border: 0;
+  position: absolute;
+  left: 2px;
+  bottom: -52px;
+}
+
+.buttonAddLine:hover {
+  background-color: #f5c154;
+}
+
+.buttonDeleteColumn {
+  width: 50px;
+  height: 50px;
+  text-decoration: none;
+  user-select: none;
+  /*display: none;*/
+  outline: none;
+  text-align: center;
+  vertical-align: middle;
+  background-color: #b00000;
+  color: white;
+  position: absolute;
+  border: 0;
+  transition: background-color 1s linear;
+  cursor: pointer;
+  top: -51px;
+  left: 0;
+}
+
+.buttonDeleteColumn:hover {
+  background-color: #cc4c4b;
+}
+
+.buttonDeleteLine {
+  width: 50px;
+  height: 50px;
+  text-decoration: none;
+  user-select: none;
+  /*display: none;*/
+  outline: none;
+  text-align: center;
+  vertical-align: middle;
+  background-color: #b00000;
+  color: white;
+  position: absolute;
+  /*margin-top: 52px;*/
+  border: 0;
+  transition: background-color 1s linear;
+  cursor: pointer;
+  left: -51px;
+  top: 0;
+}
+
+.buttonDeleteLine:hover {
+  background-color: #cc4c4b;
+}
+
+.main {
+  display: inline-block;
+  position: relative;
+  margin-left: 50px;
+  margin-top: 50px;
+}
+
+.table {
+  border: 1px solid grey;
+  border-collapse: separate;
+  border-spacing: 2px;
+}
