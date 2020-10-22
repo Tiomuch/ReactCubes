@@ -21,7 +21,7 @@ code {
   margin: 0;
 }
 
-.buttonAddColumn {
+.button-add-column {
   width: 50px;
   height: 50px;
   text-decoration: none;
@@ -39,11 +39,11 @@ code {
   top: 3px;
 }
 
-.buttonAddColumn:hover {
+.button-add-column:hover {
   background-color: #f5c154;
 }
 
-.buttonAddLine {
+.button-add-line {
   width: 50px;
   height: 50px;
   text-decoration: none;
@@ -61,16 +61,15 @@ code {
   bottom: -52px;
 }
 
-.buttonAddLine:hover {
+.button-add-line:hover {
   background-color: #f5c154;
 }
 
-.buttonDeleteColumn {
+.button-delete-column {
   width: 50px;
   height: 50px;
   text-decoration: none;
   user-select: none;
-  /*display: none;*/
   outline: none;
   text-align: center;
   vertical-align: middle;
@@ -84,23 +83,21 @@ code {
   left: 0;
 }
 
-.buttonDeleteColumn:hover {
+.button-delete-column:hover {
   background-color: #cc4c4b;
 }
 
-.buttonDeleteLine {
+.button-delete-line {
   width: 50px;
   height: 50px;
   text-decoration: none;
   user-select: none;
-  /*display: none;*/
   outline: none;
   text-align: center;
   vertical-align: middle;
   background-color: #b00000;
   color: white;
   position: absolute;
-  /*margin-top: 52px;*/
   border: 0;
   transition: background-color 1s linear;
   cursor: pointer;
@@ -108,7 +105,7 @@ code {
   top: 0;
 }
 
-.buttonDeleteLine:hover {
+.button-delete-line:hover {
   background-color: #cc4c4b;
 }
 
